@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561939553599",
+    "project_id": "inclass16-a1f17",
+    "storage_bucket": "inclass16-a1f17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561939553599:android:70efbe09fb567830f5878a",
+        "android_client_info": {
+          "package_name": "edu.gsu.mad.science_signal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnsG4HhoLK75EoDx5iS3jRNPbmU_9EwHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
