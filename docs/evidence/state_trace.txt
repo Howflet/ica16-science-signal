@@ -1,0 +1,96 @@
+11-17 23:02:06.551 [trace] Sign-in failed: invalid-email
+11-17 23:02:06.551 [trace] state: signedOut -> authError
+11-17 23:02:28.111 [trace] Sign-in failed: invalid-credential
+11-17 23:05:21.836 [trace] Signed in as uid …TGI2
+11-17 23:05:21.837 [trace] state: signedOut -> loading
+11-17 23:05:22.173 [trace] Sign-in succeeded
+11-17 23:05:23.857 [trace] Round …3rGG started with 5 questions
+11-17 23:05:23.858 [trace] state: loading -> playing
+11-17 23:05:51.461 [trace] Q1: chose true (wrong)
+11-17 23:06:06.769 [trace] Q2: chose false (correct)
+11-17 23:06:55.899 [trace] Q3: chose true (correct)
+11-17 23:07:01.900 [trace] Q4: chose true (correct)
+11-17 23:07:07.819 [trace] Q5: chose false (wrong)
+11-17 23:07:19.956 [trace] state: playing -> readyToSubmit
+11-17 23:07:23.483 [trace] Payload frozen: correctCount 3/5
+11-17 23:07:23.485 [trace] state: readyToSubmit -> submitting
+11-17 23:07:26.364 [trace] Commit acknowledged: created …3rGG
+11-17 23:07:26.365 [trace] state: submitting -> verifying
+11-17 23:07:26.802 [trace] Cloud verified …3rGG: 3/5 at 2026-11-17T23:07:25.972
+11-17 23:07:26.814 [trace] state: verifying -> cloudVerified
+11-17 23:08:21.386 [trace] Replay requested
+11-17 23:08:21.388 [trace] state: cloudVerified -> loading
+11-17 23:08:22.161 [trace] Round …RrLP started with 5 questions
+11-17 23:08:22.162 [trace] state: loading -> playing
+11-17 23:08:35.775 [trace] Q1: chose true (correct)
+11-17 23:08:41.725 [trace] Q2: chose true (wrong)
+11-17 23:08:47.595 [trace] Q3: chose true (correct)
+11-17 23:08:53.425 [trace] Q4: chose true (correct)
+11-17 23:08:59.241 [trace] Q5: chose true (correct)
+11-17 23:09:02.143 [trace] state: playing -> readyToSubmit
+11-17 23:09:24.063 [trace] Payload frozen: correctCount 4/5
+11-17 23:09:24.063 [trace] state: readyToSubmit -> submitting
+11-17 23:09:24.403 [trace] Commit acknowledged: created …RrLP
+11-17 23:09:24.403 [trace] state: submitting -> verifying
+11-17 23:09:24.404 [trace] verificationUnavailable: [permissionDenied] Write acknowledged; verification unavailable. Permission denied. ([INJECTED] Verification read denied (dev hook). Deployed rules are unchanged.)
+11-17 23:09:24.404 [trace] state: verifying -> verificationUnavailable
+11-17 23:09:50.733 [trace] Retry 2/5 for same round ID
+11-17 23:09:50.733 [trace] state: verificationUnavailable -> verifying
+11-17 23:09:51.036 [trace] Cloud verified …RrLP: 4/5 at 2026-11-17T23:09:24.449
+11-17 23:09:51.039 [trace] state: verifying -> cloudVerified
+11-17 23:10:11.988 [trace] Replay requested
+11-17 23:10:11.988 [trace] state: cloudVerified -> loading
+11-17 23:10:13.264 [trace] Round …OPwi started with 5 questions
+11-17 23:10:13.264 [trace] state: loading -> playing
+11-17 23:10:17.217 [trace] Q1: chose true (wrong)
+11-17 23:10:23.044 [trace] Q2: chose true (correct)
+11-17 23:10:29.495 [trace] Q3: chose true (wrong)
+11-17 23:10:35.353 [trace] Q4: chose true (wrong)
+11-17 23:10:41.122 [trace] Q5: chose true (correct)
+11-17 23:10:43.848 [trace] state: playing -> readyToSubmit
+11-17 23:10:56.349 [trace] Payload frozen: correctCount 2/5
+11-17 23:10:56.349 [trace] state: readyToSubmit -> submitting
+11-17 23:10:56.350 [trace] saveUnknown: [unavailable] Save not confirmed. Cloud service unavailable or offline. ([INJECTED] Service unavailable before commit.) Retry reconciles this same ID first.
+11-17 23:10:56.350 [trace] state: submitting -> saveUnknown
+11-17 23:11:11.869 [trace] Retry 2/5 for same round ID
+11-17 23:11:11.871 [trace] state: saveUnknown -> submitting
+11-17 23:11:11.871 [trace] Reconciling …OPwi from server first
+11-17 23:11:11.872 [trace] saveUnknown: [resourceExhausted] Save not confirmed. Cloud quota exhausted. ([INJECTED] Quota exhausted before commit.) Retry reconciles this same ID first.
+11-17 23:11:11.872 [trace] state: submitting -> saveUnknown
+11-17 23:11:17.648 [trace] Retry 3/5 for same round ID
+11-17 23:11:17.648 [trace] state: saveUnknown -> submitting
+11-17 23:11:17.648 [trace] Reconciling …OPwi from server first
+11-17 23:11:18.371 [trace] Commit acknowledged: created …OPwi
+11-17 23:11:18.371 [trace] state: submitting -> verifying
+11-17 23:11:18.572 [trace] Cloud verified …OPwi: 2/5 at 2026-11-17T23:11:18.402
+11-17 23:11:18.572 [trace] state: verifying -> cloudVerified
+11-17 23:11:51.795 [trace] Replay requested
+11-17 23:11:51.795 [trace] state: cloudVerified -> loading
+11-17 23:11:51.799 [trace] Question request failed: Invalid question data: question 3 has malformed encoding in "question"
+11-17 23:11:51.799 [trace] state: loading -> requestError
+11-17 23:12:11.970 [trace] state: requestError -> loading
+11-17 23:12:11.970 [trace] Question request failed: Invalid question data: API response_code 1 (expected 0)
+11-17 23:12:11.970 [trace] state: loading -> requestError
+11-17 23:12:26.059 [trace] state: requestError -> loading
+11-17 23:12:26.060 [trace] Question request failed: Invalid question data: got 4 results (expected exactly 5)
+11-17 23:12:26.060 [trace] state: loading -> requestError
+11-17 23:12:47.243 [trace] state: requestError -> loading
+11-17 23:12:48.822 [trace] Round …whfO started with 5 questions
+11-17 23:12:48.822 [trace] state: loading -> playing
+11-17 23:12:52.722 [trace] Q1: chose true (correct)
+11-17 23:12:58.731 [trace] Q2: chose true (correct)
+11-17 23:13:04.576 [trace] Q3: chose true (wrong)
+11-17 23:13:10.441 [trace] Q4: chose true (correct)
+11-17 23:13:16.088 [trace] Q5: chose true (wrong)
+11-17 23:13:18.887 [trace] state: playing -> readyToSubmit
+11-17 23:13:25.535 [trace] Payload frozen: correctCount 3/5
+11-17 23:13:25.535 [trace] state: readyToSubmit -> submitting
+11-17 23:13:25.626 [trace] saveUnknown: [unavailable] Save not confirmed. Cloud service unavailable or offline. (UNAVAILABLE: Unable to resolve host firestore.googleapis.com) Retry reconciles this same ID first.
+11-17 23:13:25.626 [trace] state: submitting -> saveUnknown
+11-17 23:13:50.811 [trace] Retry 2/5 for same round ID
+11-17 23:13:50.812 [trace] state: saveUnknown -> submitting
+11-17 23:13:50.812 [trace] Reconciling …whfO from server first
+11-17 23:13:53.065 [trace] Commit acknowledged: created …whfO
+11-17 23:13:53.066 [trace] state: submitting -> verifying
+11-17 23:13:53.268 [trace] Cloud verified …whfO: 3/5 at 2026-11-17T23:13:53.118
+11-17 23:13:53.269 [trace] state: verifying -> cloudVerified

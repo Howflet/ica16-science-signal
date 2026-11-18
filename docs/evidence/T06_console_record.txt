@@ -1,0 +1,8 @@
+Firestore console, 2026-11-17 ~23:08 EST
+Path: users/…TGI2/attempts/…3rGG   (only document in the attempts collection after double-tapping Submit)
+categoryId     17                                   (int64)
+correctCount   3                                    (int64)
+questionCount  5                                    (int64)
+schemaVersion  1                                    (int64)
+submittedAt    November 17, 2026 at 11:07:25 PM UTC-5 (timestamp)
+variant        "B"                                  (string)

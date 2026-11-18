@@ -1,0 +1,1 @@
+2026-11-17 23:09:48 EST console after injected denial: attempts = …3rGG, …RrLP (2 docs; …RrLP already present before any retry)

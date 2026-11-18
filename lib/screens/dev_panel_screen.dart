@@ -141,6 +141,7 @@ class _DevPanelScreenState extends State<DevPanelScreen> {
               _section(theme, 'Cross-user probe (T10)'),
               TextField(
                 controller: _otherUid,
+                onChanged: (_) => setState(() {}),
                 decoration: const InputDecoration(
                   labelText: "Other user's uid (user A)",
                   border: OutlineInputBorder(),
@@ -177,6 +178,7 @@ class _DevPanelScreenState extends State<DevPanelScreen> {
               _section(theme, 'Invalid payload probes (T11)'),
               TextField(
                 controller: _existingId,
+                onChanged: (_) => setState(() {}),
                 decoration: const InputDecoration(
                   labelText: 'Existing round ID of yours (for the update test)',
                   border: OutlineInputBorder(),
